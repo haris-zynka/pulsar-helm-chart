@@ -114,7 +114,7 @@ proxy:
 ## Dependencies
 
 ### Authentication
-The cluster is configured to use token-based authentication. For this to work, a number of 
+The cluster is configured to use token-based authentication. To enable it add `enableTokenAuth: yes` at the top of yaml file. For this to work, a number of 
 values need to be stored in secrets. For information on token-based
 authentication in Pulsar, go [here](https://pulsar.apache.org/docs/en/security-token-admin/).
 
